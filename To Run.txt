@@ -1,0 +1,2 @@
+java -cp .:gsp.jar:commons-lang3-3.5.jar SqlEngineMain "Select * from apple;"
+javac -cp .:gsp.jar:commons-lang3-3.5.jar SqlEngineMain.java
