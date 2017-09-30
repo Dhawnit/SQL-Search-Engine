@@ -1,9 +1,9 @@
 # SQL-Search-Engine
 Implemented a mini sql engine which will run a subset of SQL Queries like Select, Join, Projection, Aggregate functions using command line interface. It uses Gudu SQL Parser to parse the SQL command.
 
-Here are the details of the project:
+## Project Details
 
-A. Dataset​:
+### Dataset​:
 	
 	1.Csv files for tables. 
 		a.If a file is :File1.csv then,the table name would be File1.
@@ -19,7 +19,7 @@ A. Dataset​:
 	<attributeN> 
 	<end_table>
 
-B. Type of Queries:
+### Type of Queries:
 
 	1.Select all records​ : 
 		Example:Select * from table_name;
@@ -36,7 +36,7 @@ B. Type of Queries:
 	5.Select with where from one or more tables:​ 
 		Example:select col1,col2 from table1,table2 where col1 = 10 AND col2 = 20;
 
-C. Error Handling:
+### Error Handling:
   Almost all major types of errors are handled.
   
 ### Steps to run:
